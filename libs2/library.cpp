@@ -19,4 +19,5 @@ int myfunc(void)
 void foo(int i) {
 	i++;
 	int x = i-2;
+	i += x;
 }
